@@ -14,17 +14,7 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  x, y, z = [a, b, c].sort
-  if x + y <= z
-    raise TriangleError, "illegal triangle"
-  elsif (x <= 0)
-    raise TriangleError, "sides must be greater than zero"
-  end
-  case [x, y, z].uniq.size
-    when 3; :scalene
-    when 2; :isosceles
-    when 1; :equilateral
-  end
+  # WRITE THIS CODE
 end
 
 # Error class used in part 2.  No need to change this code.
